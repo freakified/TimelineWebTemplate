@@ -40,7 +40,6 @@ body {
   top: 0;
   left: 0;
   bottom: 0;
-  /*width: calc(20vw - 50px);*/
   width: 15vw;
   background-color: #00AAFF;
   text-align: center;
@@ -67,22 +66,10 @@ body {
   z-index: -1;
   top: 3.5vw;
   width: 5vw;
-  height: 5vw; /* hack to use 20 vertical percent to ensure squareness */
+  height: 5vw;
   background-color: #00AAFF;
   transform: rotate(45deg);
 }
-
-/*.pin_indication .arrow {
-  position: absolute;
-  right: -14.5%;
-  top: 35%;
-  width: 30%;
-  padding-bottom: 30%; /* hack to use 20 vertical percent to ensure squareness */
-  background-color: #00AAFF;
-  transform: rotate(45deg);
-}*/
-
-
 
 li {
   margin: 1ex 0;
