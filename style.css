@@ -1,0 +1,93 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main_content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.title, .subtitle {
+  font-family: "Roboto Condensed";
+  margin: 0;
+}
+
+.title {
+  padding-top: 150px;
+  font-size: 76px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 28px;
+  font-weight: 400;
+  color: #555555;
+  margin: 30px 0;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  /*width: calc(20vw - 50px);*/
+  width: 15vw;
+  background-color: #00AAFF;
+  text-align: center;
+}
+
+.pin_indication {
+  position: relative;
+  width: 15vw;
+  left: -20vw;
+  z-index: 1;
+  text-align: center;
+  margin: -6vw 0 -6vw 0;
+}
+
+.pin_indication .icon {
+  width: 12vw;
+}
+
+.pin_indication::after {
+  content: '';
+  position: absolute;
+  right: -2.5vw;
+  z-index: -1;
+  top: 35%;
+  width: 5vw;
+  height: 5vw; /* hack to use 20 vertical percent to ensure squareness */
+  background-color: #00AAFF;
+  transform: rotate(45deg);
+}
+
+/*.pin_indication .arrow {
+  position: absolute;
+  right: -14.5%;
+  top: 35%;
+  width: 30%;
+  padding-bottom: 30%; /* hack to use 20 vertical percent to ensure squareness */
+  background-color: #00AAFF;
+  transform: rotate(45deg);
+}*/
+
+
+
+li {
+  margin: 1ex 0;
+}
+
+.description {
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}
