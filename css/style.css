@@ -75,6 +75,7 @@ h2 {
   width: 5vw;
   height: 5vw;
   background-color: #00AAFF;
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
