@@ -9,6 +9,7 @@ body {
   box-sizing: border-box;
   border-right: 15vw solid #00AAFF;
   padding: 0 12vw;
+  overflow-x: hidden;
 }
 
 @media (max-width: 1000px) {

@@ -1,0 +1,45 @@
+
+/* timeline introduction animation */
+body:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #00AAFF;
+  animation-iteration-count: 1;
+  animation-duration: .5s;
+  animation-name: timeline_intro;
+}
+
+@keyframes timeline_intro {
+  0%, 30% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+/* content introduction animation */
+
+body > * {
+  opacity: 0;
+  transform: translateY(100px);
+  animation-iteration-count: 1;
+  animation-duration: 0.5s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-name: content_intro;
+}
+
+@keyframes content_intro {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
