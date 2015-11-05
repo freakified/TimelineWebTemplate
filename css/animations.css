@@ -5,7 +5,7 @@ body:after {
   position: absolute;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 100%;
   background-color: #00AAFF;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;

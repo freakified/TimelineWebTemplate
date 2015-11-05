@@ -66,7 +66,7 @@ h2 {
   width: 12vw;
 }
 
-.pin::after {
+.pin:first-of-type::after {
   content: '';
   position: absolute;
   left: -2.5vw;
