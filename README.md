@@ -3,4 +3,4 @@ A simple web template designed to share key visual characteristics with the Pebb
 
 ## Want to use it for your own projects?
 Go for it! The source is in the gh-pages branch, so fork the project and use it
-to showcase your own interesting projects.
+to showcase your own exciting projects.
